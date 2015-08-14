@@ -48,7 +48,7 @@ Begin
   ClrScr;
 
   {*****Read data from file (START)*****}
-  assign(f, 'E:\InfX\t14.txt');
+  assign(f, 'input.txt');
   {$i-}
   reset(f);
   {$i+}
